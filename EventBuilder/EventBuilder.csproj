@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,6 +19,79 @@
   <ItemGroup>
     <!-- Files not to publish (note that the 'dist' subfolders are re-added below) -->
     <Content Remove="ClientApp\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\templates\AliceLonely\color\default.css" />
+    <None Include="wwwroot\templates\AliceLonely\css\animate.css" />
+    <None Include="wwwroot\templates\AliceLonely\css\bootstrap.min.css" />
+    <None Include="wwwroot\templates\AliceLonely\css\nivo-lightbox-theme\default\close%402x.png" />
+    <None Include="wwwroot\templates\AliceLonely\css\nivo-lightbox-theme\default\close.png" />
+    <None Include="wwwroot\templates\AliceLonely\css\nivo-lightbox-theme\default\default.css" />
+    <None Include="wwwroot\templates\AliceLonely\css\nivo-lightbox-theme\default\loading%402x.gif" />
+    <None Include="wwwroot\templates\AliceLonely\css\nivo-lightbox-theme\default\loading.gif" />
+    <None Include="wwwroot\templates\AliceLonely\css\nivo-lightbox-theme\default\next%402x.png" />
+    <None Include="wwwroot\templates\AliceLonely\css\nivo-lightbox-theme\default\next.png" />
+    <None Include="wwwroot\templates\AliceLonely\css\nivo-lightbox-theme\default\prev%402x.png" />
+    <None Include="wwwroot\templates\AliceLonely\css\nivo-lightbox-theme\default\prev.png" />
+    <None Include="wwwroot\templates\AliceLonely\css\nivo-lightbox.css" />
+    <None Include="wwwroot\templates\AliceLonely\css\owl.carousel.css" />
+    <None Include="wwwroot\templates\AliceLonely\css\owl.theme.css" />
+    <None Include="wwwroot\templates\AliceLonely\css\style.css" />
+    <None Include="wwwroot\templates\AliceLonely\font-awesome\css\font-awesome.css" />
+    <None Include="wwwroot\templates\AliceLonely\font-awesome\css\font-awesome.min.css" />
+    <None Include="wwwroot\templates\AliceLonely\font-awesome\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\templates\AliceLonely\font-awesome\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\templates\AliceLonely\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\templates\AliceLonely\font-awesome\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\templates\AliceLonely\font-awesome\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\templates\AliceLonely\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\templates\AliceLonely\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\templates\AliceLonely\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\templates\AliceLonely\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\templates\AliceLonely\img\bg1.jpg" />
+    <None Include="wwwroot\templates\AliceLonely\img\gallery\1.jpg" />
+    <None Include="wwwroot\templates\AliceLonely\img\gallery\2.jpg" />
+    <None Include="wwwroot\templates\AliceLonely\img\gallery\3.jpg" />
+    <None Include="wwwroot\templates\AliceLonely\img\gallery\4.jpg" />
+    <None Include="wwwroot\templates\AliceLonely\img\gallery\5.jpg" />
+    <None Include="wwwroot\templates\AliceLonely\img\gallery\6.jpg" />
+    <None Include="wwwroot\templates\AliceLonely\img\gallery\7.jpg" />
+    <None Include="wwwroot\templates\AliceLonely\img\gallery\8.jpg" />
+    <None Include="wwwroot\templates\AliceLonely\img\grabbing.png" />
+    <None Include="wwwroot\templates\AliceLonely\img\img1.jpg" />
+    <None Include="wwwroot\templates\AliceLonely\img\loader.gif" />
+    <None Include="wwwroot\templates\AliceLonely\img\logo.png" />
+    <None Include="wwwroot\templates\AliceLonely\img\parallax-bg.jpg" />
+    <None Include="wwwroot\templates\AliceLonely\img\spinner.gif" />
+    <None Include="wwwroot\templates\AliceLonely\js\bootstrap.js" />
+    <None Include="wwwroot\templates\AliceLonely\js\bootstrap.min.js" />
+    <None Include="wwwroot\templates\AliceLonely\js\custom.js" />
+    <None Include="wwwroot\templates\AliceLonely\js\jquery-1.10.2.js" />
+    <None Include="wwwroot\templates\AliceLonely\js\jquery.easing.min.js" />
+    <None Include="wwwroot\templates\AliceLonely\js\jquery.min.js" />
+    <None Include="wwwroot\templates\AliceLonely\js\jquery.scrollTo.js" />
+    <None Include="wwwroot\templates\AliceLonely\js\jquery.sticky.js" />
+    <None Include="wwwroot\templates\AliceLonely\js\nivo-lightbox.min.js" />
+    <None Include="wwwroot\templates\AliceLonely\js\owl.carousel.min.js" />
+    <None Include="wwwroot\templates\AliceLonely\js\stellar.js" />
+    <None Include="wwwroot\templates\AliceLonely\js\wow.min.js" />
+    <None Include="wwwroot\templates\BigOcean\css\bootstrap.min.css" />
+    <None Include="wwwroot\templates\BigOcean\css\templatemo-style.css" />
+    <None Include="wwwroot\templates\BigOcean\font-awesome-4.5.0\css\font-awesome.min.css" />
+    <None Include="wwwroot\templates\BigOcean\font-awesome-4.5.0\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\templates\BigOcean\font-awesome-4.5.0\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\templates\BigOcean\font-awesome-4.5.0\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\templates\BigOcean\font-awesome-4.5.0\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\templates\BigOcean\font-awesome-4.5.0\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\templates\BigOcean\font-awesome-4.5.0\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\templates\BigOcean\font-awesome-4.5.0\HELP-US-OUT.txt" />
+    <None Include="wwwroot\templates\BigOcean\img\mountain.jpg" />
+    <None Include="wwwroot\templates\BigOcean\img\ocean-bg.jpg" />
+    <None Include="wwwroot\templates\BigOcean\img\sun-cloud.jpg" />
+    <None Include="wwwroot\templates\BigOcean\js\bootstrap.min.js" />
+    <None Include="wwwroot\templates\BigOcean\js\jquery-1.11.3.min.js" />
+    <None Include="wwwroot\templates\BigOcean\js\jquery.touchSwipe.min.js" />
   </ItemGroup>
 
   <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">
