@@ -20,6 +20,22 @@
     <Content Remove="ClientApp\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="ClientApp\app\app.module.routing.ts" />
+    <None Remove="ClientApp\app\components\templates\templates.component.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ClientApp\app\components\templates\images\1.jpg" />
+    <Content Include="ClientApp\app\components\templates\images\2.jpg" />
+    <Content Include="ClientApp\app\components\templates\images\3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\app\app.module.routing.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\templates\templates.component.ts" />
+  </ItemGroup>
+
   <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">
     <!-- Ensure Node.js is installed -->
     <Exec Command="node --version" ContinueOnError="true">

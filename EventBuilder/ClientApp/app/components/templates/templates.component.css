@@ -1,0 +1,10 @@
+﻿.templates {
+    min-width: 240px;
+    max-width: 1024px;
+    margin: auto;
+    text-align: center;
+}
+
+.confirm {
+    margin-top: 20px;
+}
